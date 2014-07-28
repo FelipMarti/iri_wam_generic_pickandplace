@@ -1,0 +1,11 @@
+<launch>
+
+  <node name="iri_wam_generic_pickandplace" pkg="iri_wam_generic_pickandplace" type="iri_wam_generic_pickandplace" output="screen" >
+    <remap from="/iri_wam_generic_pickandplace/pick_or_place" to="/iri_wam_generic_pickorplace/pick_or_place" />  
+  </node>
+
+  <include file="$(find iri_wam_generic_pickorplace)/launch/iri_wam_generic_pickorplace.launch" />
+
+
+</launch>
+

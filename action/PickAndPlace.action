@@ -1,0 +1,19 @@
+#Goal definition
+float32[3] pregrasp_point		#PreGrasp point
+float32[3] grasp_point			#Grasp or ungrasp point
+float32[3] postgrasp_point		#PostGrasp or PostUngrasp point
+float32[3] ini_grasp_EF_rpy		#EF init grasp Orientation
+float32[3] end_grasp_EF_rpy		#EF end grasp Orientation
+float32[3] preungrasp_point		#PreGrasp point
+float32[3] ungrasp_point		#Grasp or ungrasp point
+float32[3] postungrasp_point	#PostGrasp or PostUngrasp point
+float32[3] ini_ungrasp_EF_rpy	#EF init ungrasp Orientation
+float32[3] end_ungrasp_EF_rpy	#EF end ungrasp Orientation
+---
+#Result definition
+bool successful
+---
+#Feedback
+int32 PandP_state	#State of the action
+int32 PorP_state	#State of the action
+
