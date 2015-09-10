@@ -3,7 +3,7 @@ iri-wam-generic-pickandplace
 
 Generic actionlib to perform a pick_and_place action for the WAM arm robot of the IRI Perception and Manipulation Lab.
 
-* [IRI - Institut de Robòtica i Informàtica Industrial](www.iri.upc.edu) (CSIC-UPC)
+* [IRI - Institut de Robòtica i Informàtica Industrial](htpp://www.iri.upc.edu) (CSIC-UPC)
 * More info in the technical report from [UPCommons] (https://upcommons.upc.edu/handle/2117/76606) 
 or [IRI Documentation](http://www.iri.upc.edu/files/scidoc/1598-Rigid-and-deformable-pick-and-place-algorithms.pdf)
 
